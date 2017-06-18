@@ -1,0 +1,19 @@
+
+
+git checkout -b BRANCH_NAME
+//do coding
+git status  //see what changed
+git add FILE_NAME ( OPTIONAL FILE_2, ...)
+git commit -m "MESSAGE ABOUT CHANGES YOU JUST ADDED"
+git log //optional  
+
+//changes are still local only
+git push
+
+PREEXISTING FILES:
+git commit -am "ADD AND COMMIT ALL FILES WITH MESSAGE"
+
+//need to get your code into the master master branch
+git checkout master
+git merge BRANCH_TO_MERGE
+git branch -d BRANCH_YOU_JUST_MERGED
